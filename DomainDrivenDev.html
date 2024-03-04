@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DomainDrivenDev</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <p></p>
+    <p>
+        <H1>Domeenipõhine disain</H1><br>
+
+        Domeenipõhine disain (DDD) on tarkvara kujundamise lähenemisviis, mis rõhutab modelleerimistarkvara, et see sobiks konkreetse domeeniga domeeniekspertide sisendi põhjal. DDD puhul peaks tarkvarakoodi struktuur ja keel olema täpselt kooskõlas selle ärivaldkonnaga, mida see teenindab. Näiteks kui tarkvara käsitleb laenutaotlusi, peaksid sellel olema sellised klassid nagu "laenutaotlus" ja "kliendid" selliste meetoditega nagu "aksepteeri pakkumine" ja "taganemine".<br>
+        <br>
+<h2>DDD eesmärkide hulka kuuluvad:</h2> <br>
+
+1. Põhitähelepanu asetamine projekti põhidomeenile ja domeeniloogikale.<br>
+2. Keerukate kujunduste rajamine domeeni mudelile, mida täiustatakse tehniliste ja valdkonnaekspertide koostöö kaudu.<br>
+3. Loomingulise koostöö algatamine kontseptuaalse mudeli iteratiivseks viimistlemiseks, mis käsitleb konkreetseid domeeniprobleeme.<br>
+
+DDD kriitikud väidavad, et arendajatel võib olla vaja rakendada märkimisväärset isoleerimist ja kapseldamist, et säilitada mudel kasuliku konstruktsioonina. Kuigi DDD pakub selliseid eeliseid nagu hooldatavus, on see soovitatav eelkõige keeruliste domeenide jaoks, kus mudel pakub selgeid eeliseid domeeni mõistmisel.<br>
+
+<h3>DDD põhikontseptsioonid ja tavad hõlmavad järgmist:</h3> <br>
+
+1. Domeenimudel: domeeni valitud aspekte kirjeldav abstraktsioonide süsteem, mida kasutatakse domeeniga seotud probleemide lahendamiseks.<br>
+2. Üldlevinud keel: levinud keel, mida jagavad domeenieksperdid, kasutajad ja arendajad ning mida kasutatakse domeenimudelis ja süsteeminõuetes.<br>
+3. Strateegiline disain ja taktikaline disain: DDD tugisambad koos üldlevinud keelega, mis keskenduvad vastavalt kõrgetasemelisele domeenikujundusele ja üksikasjalikele disainiotsustele.<br>
+4. Domeenikiht: üks levinumaid kihte objektorienteeritud mitmekihilises arhitektuuris, mis sisaldab domeenispetsiifilist loogikat.<br>
+5. Mudelid: olemid (määratletud identiteediga), väärtusobjektid (muutumatud objektid atribuutidega, kuid ilma identiteedita), sündmused (esindavad mineviku esinemisi) ja agregaadid (seotud objektide kogud juurolemiga).<br>
+<br>
+Praktikas julgustab DDD objekti loomist objektist endast eraldama. Hoidlad toovad domeeniobjekte andmesalvest, tehased loovad domeeniobjekte otse ja teenused käsitlevad funktsioone, mis ei kuulu ühegi konkreetse objekti juurde.<br>
+<br>
+Üldiselt on DDD eesmärk luua tarkvara, mis ühtib tihedalt selle domeeniga, mida see teenindab, soodustades koostööd tehniliste ja domeeniekspertide vahel, et saavutada keerukamates valdkondades parem arusaamine ja probleemide lahendamine.<br>
+    </p>
 </body>
 </html>
