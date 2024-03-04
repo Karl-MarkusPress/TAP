@@ -26,9 +26,22 @@
 </style>
 </head>
 <body>
-  <h1>Git Tehnilised Omadused ja Kontseptsioonid</h1>
-  <p><strong>Andmete terviklikkus:</strong> Git säilitab iga faili versiooni unikaalse identifikaatori (SHA-1 räsi) abil, tagades iga biti terviklikkuse. See tähendab, et faili või muudatuste ajaloo muutmine pärast nende salvestamist on võimatu ilma muutumist märkamata.</p>
-  <p><strong>Hajus arhitektuur:</strong> Iga Git'i kataloog on täisväärtuslik repositoorium, mis võimaldab arendajatel töötada iseseisvalt ja hajutatult, ilma pideva vajaduseta võrguühenduse järele. See võimaldab paindlikku ja kiiret arendust isegi laialt hajutatud meeskondades.</p>
-  <p><strong>Filosoofia failipõhisest versioonihaldusest:</strong> Git jälgib failide seisundit, mitte nende muutusi. See tähendab, et Git salvestab iga faili täieliku koopia iga muudatuse kohta, mis võimaldab tõhusat ajaloo vaatamist ja filiaalide vahelist ühendamist.</p>
-  <p><strong>Filiaalid:</strong> Git võimaldab arendajatel luua, ühendada ja kustutada filiaale kiiresti ja lihtsalt. Filiaalid võimaldavad arendajatel töötada erinevates funkts...  </body>
+  <h1>Git</h1>
+  <img src="git-gui.png">
+        <p>Git on hajus versioonihaldussüsteem, mille autoriks oli Linus Torvalds aastal 2005. See süsteem võimaldab jälgida muudatusi arvutifailides ning seda kasutatakse peamiselt programmeerijate koostööks tarkvaraarenduses. Git keskendub kiirusele, andmete terviklikkusele ning toetab hajusaid, mitte-lineaarseid töövooge. Olulisteks omadusteks on:</p>
+        <ol>
+          <li><strong>Mitte-lineaarne Arendus:</strong> Git võimaldab kiiret harude loomist ja ühendamist, muutes arendusajaloo visualiseerimise ja navigeerimise lihtsaks.</li>
+          <li><strong>Hajus Arendus:</strong> Igal arendajal on oma kohalik täielik ajalugu ning muudatused kopeeritakse ühest repositooriumist teise, hõlbustades koostööd.</li>
+          <li><strong>Ühilduvus:</strong> Git toetab erinevaid protokolle repositooriumide avaldamiseks ning on ühilduv olemasolevate süsteemidega nagu CVS ja Subversion.</li>
+          <li><strong>Efektiivsus:</strong> Git on tuntud oma kiiruse ja skaalatavuse poolest, töötades suurte projektidega tõhusalt võrreldes alternatiividega nagu Mercurial ja Bazaar.</li>
+          <li><strong>Krüptograafiline Autentimine:</strong> Git tagab andmete terviklikkuse, salvestades ajaloo viisil, mis takistab manipuleerimist.</li>
+          <li><strong>Tööriistapõhine Disain:</strong> Git on kavandatud programmide ja skriptide komplektina, mis võimaldab paindlikkust ja lihtsat integreerimist.</li>
+          <li><strong>Lisatavad Ühendamisstrateegiad:</strong> Git pakub mitmeid algoritme muudatuste ühendamiseks, võimaldades vajadusel käsitsi sekkumist.</li>
+          <li><strong>Prahi kogumine:</strong> Git kogub ja eemaldab automaatselt ebavajalikud objektid, et säilitada repositooriumi tõhusust.</li>
+          <li><strong>Perioodiline Objektipakendamine:</strong> Git salvestab objekte individuaalselt, kuid pakib neid perioodiliselt ruumitõhususe tagamiseks.</li>
+          <li><strong>Andmestruktuurid:</strong> Giti objektisalvestus hõlmab plokke (failisisu), puid (kaustu), committe (ühendatud ajalugu), siltide (metaandmed) ja pakkefaile (kokkusurutud kogumikke).</li>
+      </ol>
+  
+      <p>Lisaks failiversioonide salvestamisele kasutab Git silte, mida nimetatakse refs-ideks, et märkida olulisi punkte ajaloos, nagu harud ja sildid. Git'i laialdane kasutus ja populaarsus programmeerijate hulgas teevad sellest olulise osa kaasaegsetest tarkvaraarenduse töövoogudest.</p>
+</body>
 </html>

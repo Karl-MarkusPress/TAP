@@ -22,27 +22,43 @@
             color: #444;
             padding-left: 20px;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            max-height: 500px; /* Adjust the maximum height as needed */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>UML diagrammid mõistmine: Õige valiku tegemine</h1>
+        <h1>UML diagrammid</h1>
         <p>Ühinenud modelleerimiskeel (UML) toimib standardiseeritud märgendusena süsteemide ja tarkvara visualiseerimiseks, pakkudes graafilist esitlust, mis suurendab arusaamist. Vaatleme peamisi kategooriaid ja põhidiagramme:</p>
         
         <h2>Struktuuridigrammid:</h2>
         <ul>
-            <li><strong>Klassidiagrammid:</strong> Kujutavad objektorienteeritud programmeerimises klasside, nende atribuutide, meetodite ja suhete struktuuri.</li>
-            <li><strong>Objektidiagrammid:</strong> Näitavad klasside eksemplare ja nende suhteid teatud ajahetkel.</li>
-            <li><strong>Komponendidigrammid:</strong> Tõstavad esile füüsiliste komponentide ja nende vaheliste seoste struktuuri süsteemis.</li>
-            <li><strong>Pakettidiagrammid:</strong> Visualiseerivad süsteemi komponentide korraldust loogiliste gruppide või pakettidena.</li>
+            <li><strong>Klassi diagrammid:</strong> klassi diagramm on teatud tüüpi staatiline struktuuriskeem, mis kirjeldab süsteemi struktuuri, näidates süsteemi klasse, nende atribuute, toiminguid (või meetodeid) ja objektide vahelisi seoseid</li>
+            <img src="class.img">
+            <li><strong>Objekti diagrammid:</strong> Näitavad klasside eksemplare ja nende suhteid teatud ajahetkel.</li>
+            <img src="Object_diagram.png">
+            <li><strong>Komponendi digrammid:</strong> Tõstavad esile füüsiliste komponentide ja nende vaheliste seoste struktuuri süsteemis.</li>
+            <img src="Component_Diagram.PNG">
+            <li><strong>Paketti diagrammid:</strong> Pakendiskeem on struktuuriskeem. See näitab teatud vaadet modelleeritud süsteemi struktuurile. Esitlus sisaldab tavaliselt , pakettide ühendamist, pakettide importi ja sõltuvussuhteid.
+            Pakettskeemil on palju kasutusvaldkondi. UML2 metamudel ise on jagatud pakettideks ja UML 2.0 Superstructure spetsifikatsioonis on iga keeleüksuse jaoks paketiskeem, mis esindab organisatsiooni alampakettidena. Tarkvarasüsteemide modelleerimisel kasutatakse sageli ka pakettskeeme. Sealsed paketikaardid kujutavad näiteks tarkvara kihilisust või tarkvara jaotust mooduliteks. Ärimudelite puhul kasutatakse pakke sageli tehniliselt seotud mudeliosade kombineerimiseks, näiteks ärijuhtumiteks. Pakettskeem näitab seejärel ülevaadet ärijuhtumitest.</li>
+            <img src="02-simple-package-diagram-example.webp">
         </ul>
 
         <h2>Käitumisdiagrammid:</h2>
         <ul>
-            <li><strong>Kasutusjuhtumidiagrammid:</strong> Määratlevad süsteemi funktsionaalsused kasutaja vaatenurgast, kuvades osalejaid, kasutusjuhtumeid ja nende suhtlemist.</li>
-            <li><strong>Järjestusdiagrammid:</strong> Näitavad objektide vahelisi suhtlemisi ajas, kujutades vahetatud sõnumite järjestust.</li>
-            <li><strong>Tegevusdiagrammid:</strong> Modelleerivad tegevuste või protsesside voogu süsteemis, esitades töövoosid või äriprotsesse.</li>
-            <li><strong>Seisundidiagrammid:</strong> Kirjeldavad objekti või süsteemi erinevaid seisundeid ja nende vahelisi üleminekuid, kasulikud seisundipõhise käitumise modelleerimisel.</li>
+            <li><strong>Use Case diagrammid:</strong> Kasutusjuhtumite diagrammid kajastavad kasutusjuhtumeid ja suhteid osalejate ja süsteemi vahel; need kirjeldavad süsteemi funktsionaalseid nõudeid, viisi, kuidas välised operaatorid süsteemi piiril suhtlevad, ja süsteemi reaktsiooni.</li>
+            <img src="Use_case.png">
+            <li><strong>Järjestus diagrammid:</strong> Järjestusdiagrammid on käitumise struktureeritud esitused aja jooksul järjestikuste sammude jadana. Neid kasutatakse selleks, et kujutada töövoogu, sõnumite edastamist ja seda, kuidas elemendid üldiselt aja jooksul tulemuse saavutamiseks koostööd teevad.</li>
+            <img src="sequence.img">
+            <li><strong>Tegevus diagrammid:</strong> Tegevusdiagrammid modelleerivad süsteemi käitumist ja viisi, kuidas need käitumised on seotud süsteemi üldises voos.</li>
+            <img src="activity-diagram.png">
+            <li><strong>Suhtlus diagrammid:</strong>Suhtlus diagrammid näitavad elementide vahelisi koostoimeid käitusajal, visualiseerides objektidevahelisi suhteid. </li>
+            <img src="02-basic-communication-diagram.png">
         </ul>
     </div>
 </body>
