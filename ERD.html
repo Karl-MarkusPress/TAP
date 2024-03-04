@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entity Relationship Diagrams (ERD-id)</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+h1 {
+    text-align: center;
+}
+p {
+    margin-bottom: 20px;
+}
+ul {
+    margin-bottom: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+<h1>Entity Relationship Diagrams (ERD-id)</h1>
+<p>ERD-id on olulised tööriistad IT-süsteemi kavandamisel, pakkudes visuaalset esindust seoste kohta erinevate elementide vahel andmebaasis. Siin on kokkuvõte nende tähtsusest, loomisprotsessist ja põhikomponentidest:</p>
+
+<h2>Tähtsus ja kasutusalad:</h2>
+<p>ERD-id aitavad andmebaasi kavandamisel, aidates määratleda äriprotsesse ja toimides alusena relatsioonilistele andmebaasidele. Need pakuvad visuaalset viidet süsteemi nõuete mõistmiseks ning võivad olla väärtuslikud tõrkeotsinguks ja äriprotsesside taasplaneerimiseks pärast rakendamist. Siiski on ERD-id piiratud poolstruktureeritud või struktureerimata andmete esindamisega ja võivad olemasolevatesse süsteemidesse integreerimisel nõuda täiendavat tuge.</p>
+
+<h2>ERD loomine:</h2>
+<p>ERD-e saab kujutada kolmes peamises mudelis: kontseptuaalses, loogilises ja füüsilises. Komponendid hõlmavad entiteete (objekte või kontseptsioone), atribuute (entiteetide omadusi), suhteid, tegevusi (kuidas entiteedid jagavad teavet) ja ühendusjooni. Entiteedid on kujutatud ristkülikutena, atribuudid rombides ja suhted joontena või sümbolitena koos kardinaalsuse märkidega, mis näitavad suhte olemust (üks-ühele, üks-paljudele või paljudele-paljudele).</p>
+
+<h2>ERD põhikomponendid:</h2>
+<ul>
+    <li><strong>Entiteedid:</strong> Objektid või kontseptsioonid, mille kohta on salvestatud andmed, kujutatud ristkülikutena.</li>
+    <li><strong>Atribuudid:</strong> Entiteetide omadused või tunnused, mis on kujutatud rombides.</li>
+    <li><strong>Suhted:</strong> Ühendused entiteetide vahel, kujutatud joonte või sümbolitena.</li>
+    <li><strong>Tegevused:</strong> Kirjeldused selle kohta, kuidas entiteedid andmebaasis suhtlevad.</li>
+    <li><strong>Ühendusjooned:</strong> Illustratsioonid suhete kohta entiteetide vahel.</li>
+</ul>
+
+<h2>Kardinaalsuse märkimine:</h2>
+<p>Kirjeldab suhete atribuute, näidates, kas need on valikulised või kohustuslikud. Kardinaalsused hõlmavad üks-ühele (1:1), üks-paljudele (1:M) ja paljudele-paljudele (M:N) suhteid.</p>
+
+<h2>Tööriistad ja rakendamine:</h2>
+<p>Erinevad tööriistad, nagu arvutipõhine tarkvaraarendus (CASE) tööriistad, aitavad ERD-e joonistada. Mõned relatsioonilise andmebaasi haldussüsteemid (RDBMS) pakuvad sisseehitatud kavandamisvõimalusi.</p>
+
+<h2>Erinevat tüüpi ERD-d:</h2>
+<ul>
+    <li><strong>Kontseptuaalne:</strong> Kontseptuaalne ERD modelleerib äriobjekte, mis peaksid süsteemis eksisteerima, ja nendevahelisi seoseid. Arendatakse välja kontseptuaalne mudel, mis annab süsteemist üldpildi, tuvastades sellega seotud äriobjektid. See määratleb, millised olemid eksisteerivad, MITTE millised tabelid eksisteerivad</li>
+    <img src="conceptual_erd_27340.png">
+    <li><strong>Loogiline:</strong> Loogiline ERD kogub ärinõuetest tuletatud teavet. Selles ERD-s kujutatud olemid ja seosed on struktureeritud ettevõtte vajaduste alusel, ilma et oleks veel arvestatud andmebaasi kujundusega.</li>
+    <img src="logical_erd_27341.webp">
+    <li><strong>Füüsiline:</strong> Füüsiline ERD seevastu esindab andmebaasi kujunduse tegelikku rakendamist. See sisaldab üksikasju, nagu andmetüübid, piirangud ja indeksid, muutes loogilise mudeli käegakatsutavaks andmebaasi struktuuriks.</li>
+    <img src="physical_erd_27342.png.crdownload">
+</ul>
+
+</body>
+</html>
