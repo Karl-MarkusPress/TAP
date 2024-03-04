@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraformi Tutvustus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #002aff;
+        }
+        h2 {
+            color: #007bff;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ol, ul {
+            margin-top: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Terraformi Tutvustus</h1>
+    <p>
+        Terraform, mida arendab HashiCorp, on infrastruktuur kui koodi tööriist, mis võimaldab teil määratleda nii pilve kui ka ettevõtete ressursse inimloetavates konfiguratsioonifailides. Need failid saab versioonida, korduvkasutada ja jagada, võimaldades ühtset töövoogu infrastruktuuri hõlmamiseks kogu selle elutsükli jooksul. Terraform haldab nii madal- kui ka kõrgtasemel komponente, näiteks arvutust, salvestust, võrguressursse, samuti DNS-i kirjeid ja SaaS-funktsioone.
+    </p>
+    
+    <h2>Kuidas Terraform Töötab?</h2>
+    <p>
+        Terraform suhtleb pilveplatvormide ja teenustega nende API-de kaudu, kasutades pakkujaid, mis võimaldavad Terraformil töötada erinevate platvormide ja teenustega. HashiCorp ja Terraformi kogukond on välja töötanud tuhandeid pakkujaid, mis hõlmavad laia valikut ressursse ja teenuseid, näiteks AWS, Azure, Google Cloud Platform, Kubernetes, GitHub jne. Need pakkujad on saadaval Terraformi registris.
+    </p>
+    <ol>
+        <li><strong>Kirjuta:</strong> Määratlege konfiguratsioonifailides ressursid üle mitme pilvepakkuja ja teenuse.</li>
+        <li><strong>Plaani:</strong> Terraform loob olemasoleva infrastruktuuri ja konfiguratsiooni põhjal teostuskava, kirjeldades teostatavaid toiminguid.</li>
+        <li><strong>Rakenda:</strong> Rakendage kavandatud toimingud, luues, uuendades või hävitades vajalikke ressursse, järgides sõltuvusi.</li>
+    </ol>
+
+    <h2>Peamised Omadused ja Eelised</h2>
+    <ul>
+        <li><strong>Haldage Igasugust Infrastruktuuri:</strong> Terraform toetab infrastruktuuri jaoks muutumatut lähenemist, lihtsustades uuendusi ja muudatusi.</li>
+        <li><strong>Jälgige Infrastruktuuri:</strong> Terraform loob plaani ja jälgib reaalset infrastruktuuri, kasutades olekufaili tõepärana.</li>
+        <li><strong>Automatiseerige Muudatusi:</strong> Deklaratiivsete konfiguratsioonifailide abil saab ressursse tõhusalt hankida, käsitledes Terraform ressursside sõltuvusi ja paralleliseerimist.</li>
+        <li><strong>Standardiseerige Konfiguratsioone:</strong> Toetus korduvkasutatavatele konfiguratsioonikomponentidele, mida nimetatakse mooduliteks, julgustab parimaid tavasid ja säästab aega.</li>
+        <li><strong>Koostöö:</strong> Konfiguratsioonifailid saab hallata versioonikontrollisüsteemides, ja Terraform Cloud pakub turvalist keskkonda töövoogude haldamiseks meeskondade vahel.</li>
+    </ul>
+    
+    <p>Terraformi deklaratiivse konfiguratsiooni, pakkujapõhise arhitektuuri ja koostööfunktsioonide kombinatsioon muudab selle tõhusaks tööriistaks infrastruktuuri haldamisel kui koodi kaudu.</p>
+</body>
+</html>
