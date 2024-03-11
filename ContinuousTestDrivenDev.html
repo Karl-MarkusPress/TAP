@@ -24,7 +24,26 @@
     </style>
 </head>
 <body>
-    <P></P>ContinuousTestDrivenDevelopent(CTDD) on testipõhise arenduse (TDD) laiendus, mis sisaldab automaatset testimist, mida nimetatakse ka pidevaks testimiseks.<BR> CTDD-s kirjutavad arendajad ikkagi kõigepealt testid, kuid nad ei pea neid käsitsi täitma. Selle asemel käivitab pidev testimistööriist teste taustal automaatselt.<BR>
+    <h1>ContinuousTestDrivenDevelopment(CTDD)</h1>
+    <img src="continuous delivery process.png"><br>
+    <P>ContinuousTestDrivenDevelopment(CTDD) on testipõhise arenduse (TDD) laiendus, mis sisaldab automaatset testimist, mida nimetatakse ka pidevaks testimiseks.<BR> CTDD-s kirjutavad arendajad ikkagi kõigepealt testid, kuid nad ei pea neid käsitsi täitma. Selle asemel käivitab pidev testimistööriist testid taustal automaatselt.<BR>
     Selle lähenemisviisi eesmärk on minimeerida käsitsi testimise raisatud aega, eemaldades arendajatelt vajaduse algatada teste pärast iga tüüpilise TDD-tsükli faasi:<BR> esialgse ebaõnnestunud testi kirjutamine, testi läbimiseks vajaliku minimaalse koodi rakendamine ja koodi ümbertöötamine. </P>
+        <h2>Eelised:</h2>
+    <ul>
+        <li><strong>Vigade Varajane Avastamine:</strong> Testide kirjutamine enne koodi kirjutamist aitab tuvastada võimalikke vigu ja disainivead juba arendusprotsessi alguses. See viib kõrgema kvaliteediga koodini ja vähendab hilisema veade parandamise kulusid.</li>
+        <li><strong>Parandatud Koodi Disain:</strong> Kuna testid kirjutatakse enne koodi, sunnitakse arendajaid mõtlema oma koodi disainile ja arhitektuurile juba alguses. See viib sageli puhtama, moodulipõhise ja hooldatavama koodini.</li>
+        <li><strong>Regressioonitestimine:</strong> Täieliku automatiseeritud testimise komplektiga saavad arendajad kiiresti teha regressiooniteste, et tagada, et uued muudatused ei too kaasa soovimatuid kõrvalmõjusid ega riku olemasolevat funktsionaalsust.</li>
+        <li><strong>Suurenenud Usaldus Refaktoreerimises:</strong> Pidev testimispõhine arendus pakub turvatunnet koodi refaktoreerimisel. Arendajad saavad muuta koodibaasi enesekindlalt, teades, et kui nende muudatused rikuvad olemasolevat funktsionaalsust, tabavad seda testid.</li>
+        <li><strong>Dokumentatsioon:</strong> Testjuhtumid toimivad elava dokumentatsioonina koodibaasile. Need kirjeldavad koodi ettenähtud käitumist ja pakuvad näiteid selle kasutamisest. See võib olla eriti kasulik uutele arendajatele, kes liituvad projektiga.</li>
+    </ul>
+
+    <h2>Puudused:</h2>
+    <ul>
+        <li><strong>Ajakulukus:</strong> Testide kirjutamine enne koodi kirjutamist võib olla ajakulukas, eriti keerukate süsteemide puhul. See algne investeering testide kirjutamisse võib esialgu aeglustada arengutempot, kuigi pikemas perspektiivis tasub see end ära, vähendades veatõrje- ja hooldusaega.</li>
+        <li><strong>Ülalpidamiskulu:</strong> Pideva testimispõhise arenduse puhul tuleb automatiseeritud testide komplekti pidevalt hooldada. Koodibaasi muutudes võivad testid vajada värskendamist või uuesti kirjutamist, et kajastada muudatusi nõuetes või rakenduses. See kulu võib mõnikord olla takistuseks Pideva Testimise Arenduse vastuvõtmisel.</li>
+        <li><strong>Vale Turvatunne:</strong> Kuigi automatiseeritud testid võivad tabada paljusid vigu, pole need imevits. Võib ikkagi esineda stsenaariume või äärealasid, mis pole testide komplektiga piisavalt kaetud. Ainult automatiseeritud testidele tuginedes ilma manuaalse testimise või muude kvaliteedi tagamise meetmeteta võib tekkida vale turvatunne.</li>
+        <li><strong>Õppimiskõver:</strong> Pideva testimispõhise arenduse vastuvõtmine nõuab mõtteviisi muutust arendajatelt, kes võivad olla harjunud testide kirjutamisega pärast koodi rakendamist. Testide kirjutamiseks ja nende integreerimiseks arendusvoogu võib tekkida õppimiskõver.</li>
+        <li><strong>Testide Hooldamine:</strong> Koodibaasi kasvades ja arenedes võib suure testide komplekti hooldamine muutuda keeruliseks. Testid võivad muutuda habras ja vajada sagedasi värskendusi, et sammu pidada koodi muudatustega. Korraliku tähelepanuta testimise hooldamisel võib testikomplekt pigem olla takistuseks kui abiks.</li>
+    </ul>
 </body>
 </html>

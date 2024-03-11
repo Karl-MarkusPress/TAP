@@ -21,11 +21,34 @@
             line-height: 1.6;
             margin-bottom: 20px;
         }
+        img {
+            height: 500px;
+            width:1000px;
+        }
     </style>
 </head>
 <body>
+    <h1>DataOrientedDesign</h1><BR>
+        <img src="DOD.jpg"><br>
     <P>Andmetele orienteeritud disain (DOD) andmetöötluses on optimeerimisviis, mida kasutatakse peamiselt videomängude arendamisel, keskendudes tõhusale protsessori vahemälu kasutamisele.<BR>
  DOD, mida toetavad sellised tegelaskujud nagu Mike Acton, Scott Meyers ja Jonathan Blow, rõhutab andmete paigutuse korraldamist vastavalt vajadusele ja andmete teisendamise tähtsuse järjekorda seadmist.<BR>
  DOD-i võtmenäide on paralleelne massiiv (või massiivide struktuur), mis on kontrastiks objektorienteeritud kujunduste tüüpilise struktuuride massiiviga. Kuigi mõned väidavad, et DOD võib eksisteerida koos teiste paradigmadega, muudab selle rõhuasetus andmete paigutusele enamiku teistega kokkusobimatuks.</P>
+ <h2>Eelised:</h2>
+    <ul>
+        <li><strong>Parandatud Tulemuslikkus:</strong> Andmepõhise disaini korraldamine viisil, mis optimiseerib mälu kasutust, see võib viia oluliste tulemuslikkuse parandusteni, eriti jõudlust kriitilistes rakendustes nagu mängud ja simulatsioonid.</li>
+        <li><strong>Skaleeritavus:</strong> Andmepõhine disain võib muuta rakenduste skaleerimise lihtsamaks, mida rohkem andmeid suureneb. Süsteemide kavandamine andmele juurdepääsu mustrite ümber ja sõltuvuste minimeerimine võib aidata vältida tulemuslikkuse pärssimist ja soodustada horisontaalset skaleerimist.</li>
+        <li><strong>Lihtsus ja Hooldatavus:</strong> Andmepõhine disain viib sageli lihtsama ja hooldatavama koodini, keskendudes andmetele endile keerukate objekti hierarhiate või pärandistruktuuride asemel. See võib muuta koodi aja jooksul mõistmiseks, muutmiseks ja veakorrektsiooniks lihtsamaks.</li>
+        <li><strong>Platvormist Sõltumatus:</strong> Andmepõhised disainipõhimõtted on sageli platvormist sõltumatud traditsioonilise objektipõhise disaini suhtes, mis võimaldab koodi lihtsamat viimistlust erinevate riistvaraarkitektuuride ja platvormide vahel.</li>
+        <li><strong>Parallelism ja Konkurentsivõime:</strong> Andmepõhine disain võib loomulikult sobida paralleelsete töötlemis- ja konkurentsivõimega, kuna andmepõhised süsteemid kalduvad minimeerima jagatud olekut ja sõltuvusi komponentide vahel. See võib viia parema mitme tuuma protsessorite kasutamise ja parema skaleeritavuse saavutamiseni mitmete keerukate keskkondade korral.</li>
+    </ul>
+
+    <h2>Puudused:</h2>
+    <ul>
+        <li><strong>Suurenenud Komplekssus:</strong> Kuigi andmepõhine disain võib mõnel juhul viia lihtsama koodini, võib see tekitada keerukust teistes valdkondades, eriti keerukate andmete muundamiste või objektipõhise disainiparadigmadest ülemineku korral.</li>
+        <li><strong>Õppimiskõver:</strong> Andmepõhiste disainipõhimõtete omaksvõtt võib nõuda paradigmamuutust arendajatelt, kes on harjunud objektipõhise programmeerimisega. Andmete struktureerimise mõistmine optimaalse jõudluse ja tõhususe tagamiseks võib võtta aega ja vaeva.</li>
+        <li><strong>Potentsiaalne Üleoptimeerimine:</strong> Mõnel juhul võib püüdlus jõudluse poole andmepõhise disaini kaudu viia enneaegse optimeerimiseni, kus arendajad kulutavad aega koodi optimeerimisele, mis ei mõjuta oluliselt üldist jõudlust ega kasutajakogemust.</li>
+        <li><strong>Disaini Ohverdamine:</strong> Andmepõhine disain hõlmab jõudluse, lihtsuse ja paindlikkuse vahelisi kompromisse. Jõudluse optimeerimine võib nõuda teatud abstraktsioonitaseme või disaini elegantsi ohverdamist, mis võib muuta koodi mõistmise või hooldamise raskemaks.</li>
+        <li><strong>Ei Sobita Kõikidele Rakendustele:</strong> Kuigi andmepõhine disain võib olla väga efektiivne jõudlusele keskendunud rakendustele, võib see olla sobimatu kõigile tarkvaraprojektidele. Rakendused, millel on lihtsamad andmele juurdepääsu mustrid või madalamad jõudluse nõuded, võivad saada rohkem kasu muudest disaini lähenemisviisidest.</li>
+    </ul>
 </body>
 </html>
